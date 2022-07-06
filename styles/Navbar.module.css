@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #138D75;
+}
+
+.navlink {
+    display: flex;
+    list-style-type: none;
+}
+
+.navlink a {
+    padding: 16px 32px;
+    color : #FFFFFF;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
