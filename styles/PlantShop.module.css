@@ -1,0 +1,43 @@
+.item {
+    border: #000000 solid 1px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 8px;
+    height: 250px;
+}
+
+.item:hover {
+    box-shadow: 8px 8px 4px #D5D8DC;
+    cursor: pointer;
+}
+
+.imgplant {
+    border-radius: 8px;
+    
+}
+
+.logo {
+    max-width: 28px;
+    max-height: 28px;
+}
+
+.name {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border: solid 1px lightgray;
+    background-color: white;
+    margin: 8px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+}

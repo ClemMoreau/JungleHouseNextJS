@@ -1,0 +1,7 @@
+.shoplist {
+    flex-grow: 4;
+    max-height: 200px;
+    min-width: 65%;
+    display: flex;
+	flex-wrap: wrap;  
+}

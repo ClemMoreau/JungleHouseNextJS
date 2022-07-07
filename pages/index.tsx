@@ -1,31 +1,8 @@
 import type { NextPage } from "next";
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import logo from "../public/logo.png";
-import styles from "../styles/Home.module.css";
-import NavBar from "../components/navbar";
+import Layout from "../components/layout";
 
 const Home: NextPage = () => {
-  const [cart, updateCart] = useState([]);
-
-  useEffect(() => {
-    const savedCart = localStorage.getItem("cart");
-    updateCart(savedCart ? JSON.parse(savedCart) : []);
-  });
-
-  useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(cart));
-  }, [cart]);
-
-  return (
-    <div>
-      <header className={styles.header}>
-        <div>Jungle House</div>
-        <Image src={logo} alt="jungle-house-logo" />
-      </header>
-      <NavBar />
-    </div>
-  );
+  return <div> </div>;
 };
 
 export default Home;

@@ -1,0 +1,19 @@
+.header {
+    font-size: xx-large;
+    color : #4BCB50;
+    padding: 16px;
+    margin: 16px 16px 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: './assets/cover.jpeg';
+}
+  
+.header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.content {
+    text-align: center;
+}

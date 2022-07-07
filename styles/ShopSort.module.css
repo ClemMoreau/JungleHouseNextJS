@@ -1,0 +1,10 @@
+.sortbar {
+    background: linear-gradient(45deg, #41f099, #138D75);
+    color: #FFFFFF;
+    height: 100vh;
+    min-width: 15%;
+    max-width: 15%;
+    flex-grow: 1;
+    margin: auto;
+    padding : 32px;
+}

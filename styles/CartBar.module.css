@@ -1,0 +1,14 @@
+.cartbar {
+    background: linear-gradient(45deg, #41f099, #138D75);
+    color: #FFFFFF;
+    height: 100vh;
+    flex-grow: 1;
+    min-width: 15%;
+}
+
+.cartbar p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color : #FFFFFF;
+}
